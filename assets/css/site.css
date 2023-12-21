@@ -234,6 +234,13 @@ section {
   font-family: var(--font-secondary);
 }
 
+@media (max-width: 500px) {
+
+  .header .logo h1 {
+    font-size: 24px;
+  }
+}
+
 .header .logo h1 span {
   color: var(--color-primary);
   font-weight: 500;
